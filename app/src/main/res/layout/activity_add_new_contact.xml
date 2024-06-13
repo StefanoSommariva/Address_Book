@@ -25,6 +25,7 @@
         tools:context=".AddNewContactActivity">
 
         <EditText
+            android:background="@color/cardview_dark_background"
             android:text="@={contact.name}"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
@@ -33,13 +34,16 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="308dp"
             android:hint="Enter name"
+            android:layout_marginHorizontal="30dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
+            android:layout_marginHorizontal="30dp"
             android:text="@={contact.email}"
+            android:background="@color/cardview_dark_background"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:id="@+id/emailEDT"
