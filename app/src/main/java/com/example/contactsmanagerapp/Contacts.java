@@ -25,7 +25,6 @@ public class Contacts {
     public Contacts() {
 
 
-
     }
 
     public int getId() {
